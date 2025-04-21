@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="4" failed="0" skipped="0">
+<testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T12:27:38Z" name="Test Suite for Buildout" finished-at="2025-04-21T12:29:54Z" duration-ms="135926">
+  <suite started-at="2025-04-21T14:18:21Z" name="Test Suite for Buildout" finished-at="2025-04-21T14:21:19Z" duration-ms="177968">
     <groups>
     </groups>
-    <test started-at="2025-04-21T12:27:38Z" name="Test Cases for Buildout" finished-at="2025-04-21T12:29:54Z" duration-ms="135926">
+    <test started-at="2025-04-21T14:18:21Z" name="Test Cases for Buildout" finished-at="2025-04-21T14:21:19Z" duration-ms="177968">
       <class name="demo.TestCases">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T17:57:38Z" name="startBrowser" finished-at="2025-04-21T17:57:44Z" duration-ms="5840" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:48:21Z" name="startBrowser" finished-at="2025-04-21T19:48:27Z" duration-ms="5870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="testCase02()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T17:57:44Z" name="testCase02" finished-at="2025-04-21T17:57:55Z" duration-ms="10247" status="PASS">
+        <test-method signature="testCase01()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:48:27Z" name="testCase01" finished-at="2025-04-21T19:48:52Z" duration-ms="25072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method signature="testCase02()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:48:52Z" name="testCase02" finished-at="2025-04-21T19:48:59Z" duration-ms="6553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase02 -->
-        <test-method signature="testCase03()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T17:57:55Z" name="testCase03" finished-at="2025-04-21T17:58:08Z" duration-ms="13404" status="PASS">
+        <test-method signature="testCase03()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:48:59Z" name="testCase03" finished-at="2025-04-21T19:49:14Z" duration-ms="15893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase03 -->
-        <test-method signature="testCase04()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T17:58:08Z" name="testCase04" finished-at="2025-04-21T17:58:24Z" duration-ms="16336" status="PASS">
+        <test-method signature="testCase04()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:49:14Z" name="testCase04" finished-at="2025-04-21T19:49:33Z" duration-ms="18290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase04 -->
-        <test-method signature="testCase05()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T17:58:24Z" name="testCase05" finished-at="2025-04-21T17:59:54Z" duration-ms="90056" status="PASS">
+        <test-method signature="testCase05()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:49:33Z" name="testCase05" finished-at="2025-04-21T19:51:17Z" duration-ms="104357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase05 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T17:59:54Z" name="endTest" finished-at="2025-04-21T17:59:54Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@36f48b4]" started-at="2025-04-21T19:51:17Z" name="endTest" finished-at="2025-04-21T19:51:19Z" duration-ms="1896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
