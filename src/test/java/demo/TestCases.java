@@ -237,8 +237,8 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
 
         @AfterTest
         public void endTest() {
-                // driver.close();
-                // driver.quit();
+                driver.close();
+                driver.quit();
 
         }
 }
