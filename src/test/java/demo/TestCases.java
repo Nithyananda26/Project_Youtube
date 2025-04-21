@@ -44,7 +44,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
          * instructions
          */
 
-        @Test(enabled = false)
+        @Test(enabled = true)
         public void testCase01() {
                 System.out.println("Test case-1");
                 wr.opensite("https://www.youtube.com/");
