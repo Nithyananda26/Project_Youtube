@@ -43,7 +43,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
          * Follow `testCase01` `testCase02`... format or what is provided in
          * instructions
          */
-
+        // Test case-1 fetching the about page text
         @Test(enabled = true)
         public void testCase01() {
                 System.out.println("Test case-1");
@@ -59,6 +59,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 System.out.println(about_element.getText());
         }
 
+        //  Test case-2 Click on movies & fetch movie name by adding some filters 
         @Test(enabled = true)
         public void testCase02() throws InterruptedException {
                 System.out.println("Test case-1");
@@ -100,6 +101,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 sAssert.assertAll();
         }
 
+        //  Test case-3 Click on music & select speific cetegory, fetech all the music text
         @Test(enabled = true)
         public void testCase03() throws InterruptedException {
                 System.out.println("Test case-1");
@@ -141,6 +143,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 System.out.println("Number of songs is --> " + numberOfSongs);
         }
 
+        //  Test case-4 Click on news & select Latest news posts, fetech all the news post text
         @Test(enabled = true)
         public void testCase04() throws InterruptedException {
                 System.out.println("Test case-1");
@@ -164,6 +167,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 System.out.println("Total Likes from first 3 posts: " + totalLikes);
         }
 
+        //  Test case-5 Search for specific keywords& get the information & printing
         @Test(enabled = true)
         public void testCase05() throws Exception {
                 String[] searchTerms = { "Movies", "Music", "Games", "India", "UK" };
